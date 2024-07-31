@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+:root {
+    --navbar-height: 0px;
+}
+
+body {
+    background-color: #d4cfcf;
+    color: #242526;
+    margin-bottom: 0
+}
+
+.header {
+    font-weight: bold;
+    padding: 2rem 1rem;
+}
+
+.body-heading {
+    color: #1c1c1c;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 6vw;
+    font-family: Dancing Script;
+    font-weight: 600;
+}
+
+.body-text {
+    font-family: Kalam;
+    font-weight: 500;
+    color: #1c1c1c;
+    font-size: 1.75vw;
+    line-height: 2;
+}
+
+.centered-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stand-out {
+    font-weight: 700;
+    font-size: 1.85vw;
+}
+
+.bg-dark-gray {
+    background-color: #918e8e;
+}
+
+.taco-bell {
+    height: 13vw;
+    margin-left: 1vw;
+    margin-top: 3vw;
+    transform: rotate(-10deg);
+}
+
+.maze-runner {
+    height: 17.5vw;
+    transform: rotate(10deg);
+    margin-left: 16.5vw;
+    margin-top: -7.5vw;
+}
+
+.sunset {
+    height: 12.5vw;
+    transform: rotate(3deg);
+    margin-left: 5vw;
+    margin-top: 1.5vw;
+}
+
+.halo-infinite {
+    height: 12vw;
+    margin-top: 1vw;
+    margin-left: 9vw;
+    transform: rotate(3deg);
+}
+
+.breaking-bad {
+    height: 20vw;
+    transform: rotate(-5deg);
+    margin-left: 0.75vw;
+    margin-top: 1vw;
+    margin-right: 1.25vw;
+}
+
+.oreo {
+    height: 20vw;
+    transform: rotate(3.5deg);
+    margin-bottom: -11vw;
+    align: right;
+}
+
+.img-thumbnail {
+    transition: box-shadow 0.3s, filter 0.3s;
+}
+
+.glow {
+    box-shadow: 0 0 15px 7px #3893f5;
+    filter: brightness(1.2);
+}
+
+.dim {
+    filter: brightness(0.65);
+}

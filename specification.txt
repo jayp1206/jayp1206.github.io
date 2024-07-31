@@ -1,0 +1,38 @@
+HTML Tags:
+1.  nav
+2.  div
+3.  meta
+4.  link
+5.  script
+6.  a
+7.  h3
+8.  img
+9.  br
+10. span
+
+CSS Selectors:
+1. .dim
+2. .glow
+3. .body-heading
+4. .body-text
+5. .stand-out
+
+CSS Properties:
+1. background-color
+2. color
+3. text-align
+4. font-family
+5. font-weight
+
+Javascript:
+I used javascript to dynamically adjust the height of the colums in my webpage by assigning the current height of the navbar
+to a variable whenever the screen size is adjusted. I use this variable to make sure my webpage always perfectly takes up the size of the screen.
+I also used javascript to make images glow and all other images dim when the user hovers on their respective text.
+
+
+Bootstrap:
+I used bootstrap's navbar feature to add an interactive navbar to my homepage, grid feature to organize my pages,
+and thumbnail image feature to make my images more visually appealing.
+- Used navbar tool
+- Used grid tool
+- thumbnail image
